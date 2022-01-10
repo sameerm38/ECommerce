@@ -70,7 +70,6 @@ namespace ECommerce.Api.Products.Tests
 
         private void CreateProducts(ProductsDBContext dbContext)
         {
-            for (int i = 1; i <= 11; i++)
             {
                 dbContext.Products.Add(new Product()
                 {
