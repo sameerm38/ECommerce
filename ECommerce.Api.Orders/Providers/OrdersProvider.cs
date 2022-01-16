@@ -81,6 +81,7 @@ namespace ECommerce.Api.Orders.Providers
                         new Db.OrderItem() { OrderId = 4, ProductId = 3, Quantity = 10, UnitPrice = 10 },
                         new Db.OrderItem() { OrderId = 2, ProductId = 2, Quantity = 10, UnitPrice = 10 },
                         new Db.OrderItem() { OrderId = 3, ProductId = 3, Quantity = 1, UnitPrice = 100 }
+                        new Db.OrderItem() { OrderId = 6, ProductId = 4, Quantity = 12, UnitPrice = 250 }
                     },
                     Total = 100
                 });
